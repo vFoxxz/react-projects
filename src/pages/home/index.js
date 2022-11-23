@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div className="home">
             <h1>React Projects</h1>
-            <div>
+            <div className="align">
                 <Link to='/calculadora'>Calculadora</Link>
                 <Link to='/financeiro'>Controle Financeiro</Link>
             </div>
